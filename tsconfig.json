@@ -13,6 +13,7 @@
     "paths": {
       "@config/*": ["src/config/*"],
       "@common/*": ["src/common/*"],
+      "@item/*": ["src/modules/item/*"],
       "@providers/*": ["src/providers/*"]
     },
     "incremental": true,
