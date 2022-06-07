@@ -11,8 +11,11 @@ export class UserEntity extends BaseIdEntity {
     }
 
     this.ip = attrs.ip;
+    this.name = attrs.name;
   }
 
   @Column()
   ip: string;
+  @Column()
+  name: string;
 }

@@ -12,6 +12,8 @@ export class UsersService extends BaseService<UserEntity> {
   }
 
   async create(input: Pick<UserEntity, 'ip'>) {
-    return await this.repository.save(new UserEntity(input));
+    return await this.repository.save(
+      new UserEntity({ ...input, name: '양병훈' }),
+    );
   }
 }
