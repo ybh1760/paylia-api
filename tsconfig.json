@@ -11,9 +11,13 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "paths": {
+      "@auth/*": ["src/auth/*"],
       "@config/*": ["src/config/*"],
       "@common/*": ["src/common/*"],
       "@item/*": ["src/modules/item/*"],
+      "@order/*": ["src/modules/order/*"],
+      "@payment/*": ["src/modules/payment/*"],
+      "@user/*": ["src/modules/user/*"],
       "@providers/*": ["src/providers/*"]
     },
     "incremental": true,
